@@ -72,7 +72,7 @@ git clone https://github.com/<ваш-аккаунт>/<репозиторий>.gi
 ## Структура
 
 ```text
-1-QuickScreen/
+QS PROJECT/
 ├─ QS_Click.dpr / QS_Click.dproj  — точка входа и проект Delphi (Win32/Win64, FMX)
 ├─ u_main_qs.pas / u_main_qs.fmx  — главное окно и запуск захвата
 ├─ u_qs_capture.pas               — захват экрана и окон, буфер обмена, сохранение
