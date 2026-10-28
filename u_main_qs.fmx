@@ -1,0 +1,15 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'QS Click - '#1089#1085#1080#1084#1082#1080' '#1101#1082#1088#1072#1085#1072
+  ClientHeight = 440
+  ClientWidth = 536
+  FormFactor.Width = 1180
+  FormFactor.Height = 700
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnCloseQuery = FormCloseQuery
+  OnDestroy = FormDestroy
+  OnResize = FormResize
+  DesignerMasterStyle = 0
+end

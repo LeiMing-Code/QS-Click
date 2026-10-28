@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E03BE482-3FEB-4179-8F49-8F62ED7C1482}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="QS_Click.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="QS_Click">
+        <MSBuild Projects="QS_Click.dproj"/>
+    </Target>
+    <Target Name="QS_Click:Clean">
+        <MSBuild Projects="QS_Click.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="QS_Click:Make">
+        <MSBuild Projects="QS_Click.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="QS_Click"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="QS_Click:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="QS_Click:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
