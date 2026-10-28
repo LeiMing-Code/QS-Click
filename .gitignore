@@ -1,0 +1,17 @@
+# Delphi / RAD Studio
+*.dcu
+*.~*
+*.local
+*.identcache
+*.dsk
+*.stat
+*.map
+*.rsm
+*.tds
+*.dsm
+*.ddp
+
+__history/
+__recovery/
+Win32/
+Win64/
