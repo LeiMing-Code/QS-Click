@@ -24,7 +24,7 @@ git clone https://github.com/<ваш-аккаунт>/<репозиторий>.gi
 Дальше в Delphi 13:
 
 1. Установите **Delphi 13 (RAD Studio)** с платформой **FireMonkey** для Windows.
-2. Откройте проект `1-QuickScreen\QS_Click.dproj`.
+2. Откройте проект `QS_Click.dproj`.
 3. Выберите платформу **Windows 32-bit** или **Windows 64-bit**.
 4. Выполните `Project → Build`, затем `Run → Run` (или `F9`).
 
